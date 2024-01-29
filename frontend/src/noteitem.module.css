@@ -1,0 +1,55 @@
+.noteitem {
+  background-color: rgb(49, 50, 50);
+  transition: all 0.3s ease-in-out;
+}
+.noteitem:hover {
+  background-color:  rgb(88, 88, 88);
+}
+.noteitem:hover .noteTag {
+  background-color:  rgb(59, 70, 70);
+}
+.noteTag{
+  background-color: rgb(31, 44, 44);
+}
+.active {
+  background:rgb(2, 185, 185);
+  transition: all 0.3s ease-in-out;
+}
+.active:hover {
+  background:rgb(2, 185, 185)
+}
+.active .noteTag{
+  background-color: rgb(2, 47, 47);
+}
+.active:hover .noteTag{
+  background-color: rgb(2, 47, 47);
+}
+.editTriggerBtn {
+  background-color: #2d2d2d;
+}
+.editTriggerBtn:hover {
+  background-color: #333333;
+}
+.editBtnContainer {
+  display: flex;
+  background: #111111;
+  padding: 5px;
+  gap: 5px;
+  height: 100px;
+  width: 100px;
+  flex-direction: column;
+  border-radius: 10px;
+  position: absolute;
+  top: 10px;
+  right: 50px;
+  z-index: 2;
+}
+.editBtn {
+  font-family: cursive;
+  color: grey;
+  background-color: #2b2b2b;
+}
+.editBtn:hover {
+  color: white;
+  background-color: #4d4d4d;
+}

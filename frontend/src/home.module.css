@@ -1,0 +1,41 @@
+.homeContainer {
+  transition: none;
+  display: flex;
+  gap: 10px;
+}
+.homeNoteContainer {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  transition: none;
+}
+.backgroundHome {
+  width: 70% ;
+  overflow: hidden;
+  box-sizing: content-box;
+  object-fit: contain;
+  object-position: center;
+  border-radius: 10px;
+}
+@media screen and (max-width: 1200px) {
+  .noteContainerEditor {
+    width: 40%;
+  }
+  .homeAnimationBox {
+    width: 50%;
+  }
+  .homeNoteContainer {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 785px) {
+  .backgroundHome {
+    display: none;
+  }
+  .homeNoteContainer {
+    width: 100%;
+    height: 100%;
+  }
+}
